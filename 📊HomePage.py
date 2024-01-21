@@ -16,7 +16,7 @@ from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
 
-df = pd.read_csv('/Users/jessicanadalete/Documents/DSF/FTC_myproject/zomato.csv')
+df = pd.read_csv('zomato.csv')
 
 df1 = df.copy() #creating copy of original dataframe
 
